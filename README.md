@@ -13,7 +13,7 @@ and confirm the alert coming! <br>
 This is, as usual, easily changable in the code! 
 ``` 
 window.addEventListener("mouseover", e => { 
-  if (e.key == "<b><i>e</i></b>") {
+  if (e.key == "e") {
       [...]
     }
 })
