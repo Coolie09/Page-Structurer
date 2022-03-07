@@ -24,11 +24,15 @@ window.addEventListener("keydown", e => {
 })
 
 function interThrowAllExp(arr) {
-    for (let i=0, max=all.length; i < max; i++) {addBorder(arr[i]); arr[i].addEventListener("mouseover", e => {e.target.style.border = "solid green 5px";  }); arr[i].addEventListener("mouseout", e => {e.target.style.border = "solid black 1px"; e.target.style.zindex = "10000px"; })}
+    for (let i=0, max=all.length; i < max; i++) {addBorder(arr[i]); arr[i].addEventListener("mouseover", e => {e.target.style.border = "solid green 5px";  addTitle(e)}); arr[i].addEventListener("mouseout", e => {e.target.style.border = "solid black 1px"; e.target.style.zindex = "10000px"; })}
+}
+
+function addTitle(object) {
+    object.target.setAttribute("title", `<${object.target.localName}>`)
+    // object.setAttribute("title", `${object.target.tagname}`)
 }
 
 
 function addBorder(element) {
     element.style.border = "solid black 1px";
 }
-
