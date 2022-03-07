@@ -4,8 +4,8 @@ This code may contain (unlikely) a few bugs! Please contact me in therefor in th
 It is important, to have installed the chrome extension "tamperkey"!
 
 # What does this script do?
-This script allows you, to analyse HTML-Pages an to see, how they are constructed. <br>
-To analyse them analog, the script creates a PDF-File with the hole HTML-Tag-tree <br>
+This script allows you to analyse HTML-Pages and to see, how they are constructed. <br>
+To analyse them analogly, the script creates a PDF-File with the hole HTML-Tag-tree <br>
 This is very useful when it comes to understand, how pages are buildt and which features they use! <br>
 # How does this script work? 
 Therefore, you have to press <b> e </b> on your keyboard, <br>
